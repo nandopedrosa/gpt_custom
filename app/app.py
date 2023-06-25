@@ -29,7 +29,7 @@ def construct_index(directory_path):
 
     llm_predictor = LLMPredictor(
         llm=ChatOpenAI(
-            temperature=0.7, model_name="gpt-3.5-turbo", max_tokens=num_outputs
+            temperature=0.5, model_name="gpt-3.5-turbo", max_tokens=num_outputs
         )
     )
 
